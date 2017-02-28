@@ -7,7 +7,7 @@ let win
 
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({width: 300, height: 600, frame: false, resizable: true})
+  win = new BrowserWindow({x: 0, y: 0, width: 1920, height: 32, frame: false, resizable: true, minimizable: false, minimizable: false, alwaysOnTop: true, useContentSize: false, maxHeight: 32})
   win.setMenu(null);
   
 
@@ -19,7 +19,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  win.webContents.openDevTools()  /////////////////
+  ///win.webContents.openDevTools()  /////////////////
 
   // Emitted when the window is closed.
   win.on('closed', () => {

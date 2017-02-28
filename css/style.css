@@ -6,7 +6,7 @@ html, body {
 }
 #panel {
   width: 100vw;
-  height: 2.42em;
+  height: 32px;
   font-size: .82em;
   background: #fff;
   
@@ -21,18 +21,18 @@ html, body {
   cursor: default;
   justify-content: center;
   align-items: center;
+  -webkit-app-region: drag;
   
 }
 .a {
-  padding-left: .32em;
-  padding-right: .32em;
+  padding-left: .48em;
+  padding-right: .48em;
   transition: all 300ms;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  margin-left: .24em;
-  margin-right: .24em;
+  -webkit-app-region: no-drag
+
 
 }
 .a:hover {
@@ -49,7 +49,7 @@ html, body {
 #weather {
   color: #22A7F0;
 }
-#menu {
+#home {
   color: #F64747;
   
 }
