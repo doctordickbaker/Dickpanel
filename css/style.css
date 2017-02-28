@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+
+html, body {
+  margin: 0;
+}
+#panel {
+  width: 100vw;
+  height: 2.42em;
+  font-size: .82em;
+  background: #fff;
+  
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  font-family: roboto;
+  font-family: 'Heebo', sans-serif;
+  color: rgba(0,0,0,.75);
+  user-select: none;
+  cursor: default;
+  justify-content: center;
+  align-items: center;
+  
+}
+.a {
+  padding-left: .32em;
+  padding-right: .32em;
+  transition: all 300ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-left: .24em;
+  margin-right: .24em;
+
+}
+.a:hover {
+  background: #ECF0F1;
+}
+.a:nth-child(even) {
+  border-left: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,.12);
+}
+#clock {
+  
+}
+#weather {
+  color: #22A7F0;
+}
+#menu {
+  color: #F64747;
+  
+}
+#news {
+  margin-right: auto;
+  transition; all 500ms;
+}
+
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+  margin: .24em;s
+}
