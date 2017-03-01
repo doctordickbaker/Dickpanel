@@ -3,10 +3,12 @@
 
 html, body {
   margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 #panel {
-  width: 100vw;
-  height: 32px;
+  width: 100vw;  
+  height: 100%;  /*32px*/
   font-size: .82em;
   background: #fff;
   
@@ -31,9 +33,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-app-region: no-drag
-
-
+  -webkit-app-region: no-drag;
 }
 .a:hover {
   background: #ECF0F1;

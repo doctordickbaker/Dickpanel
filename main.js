@@ -19,7 +19,10 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  ///win.webContents.openDevTools()  /////////////////
+  win.webContents.openDevTools({detach: true})  /////////////////
+  
+  ////window.openDevTools detach: true
+
 
   // Emitted when the window is closed.
   win.on('closed', () => {

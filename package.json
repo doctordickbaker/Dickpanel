@@ -21,5 +21,8 @@
     "readable-stream": "^2.2.2",
     "request-json": "^0.6.1",
     "sax": "^1.2.2"
+  },
+  "dependencies": {
+    "forecast": "^0.3.2"
   }
 }
