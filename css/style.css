@@ -24,9 +24,11 @@ html, body {
   justify-content: center;
   align-items: center;
   -webkit-app-region: drag;
-  
+  padding-left: .48em;
+  padding-right: .48em;
+  -webkit-user-select: none;
 }
-.a {
+.a   {
   padding-left: .48em;
   padding-right: .48em;
   transition: all 300ms;
@@ -35,7 +37,7 @@ html, body {
   align-items: center;
   -webkit-app-region: no-drag;
 }
-.a:hover {
+.a:active {
   background: #ECF0F1;
 }
 .a:nth-child(even) {
