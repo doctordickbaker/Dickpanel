@@ -33,4 +33,12 @@ forecast.get([-33.8683, 151.2086], true, function(err, weather) {
 
 var d = new Date();
 
-
+setInterval(function(){
+  if(d.getHours() >= 12){
+    let adjusthour = d.getHours() - 12;
+    clock.innerHTML = adjusthour + ":" + d.getMinutes();
+  }
+  else{
+   clock.innerHTML = d.getHours() + ":" + d.getMinutes(); 
+  }
+}, 1000);
